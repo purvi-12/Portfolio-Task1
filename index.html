@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Purvi | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-row">
+            <a href="#about" class="brand">
+                <span class="brand-logo">P</span>
+                <span class="brand-name">Purvi</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="site-nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / About -->
+    <section id="about" class="about">
+        <div class="container about-inner">
+            <div class="about-text">
+                <h3 class="small-title">About Me</h3>
+                <h1 class="big-title">
+                    A passionate <span class="highlight">full stack web developer</span> crafting
+                    <span class="highlight">functional,</span> <span class="highlight">user-friendly,</span> and
+                    <span class="highlight">meaningful</span> long-term code solutions.
+                </h1>
+                <p>
+                    I'm Purvi, a Software Engineer specializing in full stack application development. I focus on
+                    engineering clean, scalable solutions and designing systems that last.
+                </p>
+                <ul class="skills">
+                    <li>Full Stack System Engineering 🛠️</li>
+                    <li>Strategic Solution Design 🧠</li>
+                    <li>Secure & User-Centric Development 🔒</li>
+                </ul>
+            </div>
+
+            <div class="about-visual">
+                <img src="assests/hero-img.png" alt="Hero Image" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Student Mentoring System</h3>
+                    <p>A scalable PHP & MySQL solution for managing relationships, designed with specialized,
+                        role-specific interfaces for different user groups.</p>
+                    <!-- <a href="#" class="btn">View Project</a> -->
+                </article>
+                <article class="project-card">
+                    <h3>OrderLine</h3>
+                    <p>A MERN stack Chat-Based Local Essentials Ordering System focused on simplicity and accessibility
+                        for users and shopkeepers.</p>
+                    <!-- <a href="#" class="btn">View Project</a> -->
+                </article>
+                <article class="project-card">
+                    <h3>Employee Management System</h3>
+                    <p>A responsive web application crafted to streamline the management of personnel, integrating
+                        robust authentication to define precise, role-based user access</p>
+                    <!-- <a href="#" class="btn">View Project</a> -->
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h2 class="section-title">Contact</h2>
+                <p>Have a question or want to collaborate? Send me a quick message below!</p>
+                <form class="contact-form" action="#" method="post" novalidate>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required placeholder="Your name">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required placeholder="Your email">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required
+                        placeholder="Write your message..."></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© Purvi. All rights reserved</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
