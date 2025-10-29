@@ -155,7 +155,6 @@ body {
     font-weight: 600;
 }
 
-/* visual */
 .hero-image {
     width: 100%;
     max-width: 450px;
@@ -275,7 +274,6 @@ body {
     color: var(--accent);
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
     .about-inner {
         flex-direction: column-reverse;
